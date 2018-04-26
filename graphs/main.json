@@ -1,0 +1,35 @@
+{
+    "caseSensitive": false,
+    "properties": {
+        "name": "main",
+        "environment": {
+            "type": "noflo-browser"
+        }
+    },
+    "inports": {},
+    "outports": {},
+    "groups": [],
+    "processes": {
+        "interaction/ListenMouse_8jrke": {
+            "component": "interaction/ListenMouse",
+            "metadata": {
+                "label": "ListenMouse",
+                "x": 360,
+                "y": 360,
+                "width": 72,
+                "height": 72
+            }
+        },
+        "canvas/ClearRect_zkn0d": {
+            "component": "canvas/ClearRect",
+            "metadata": {
+                "label": "ClearRect",
+                "x": 684,
+                "y": 252,
+                "width": 72,
+                "height": 72
+            }
+        }
+    },
+    "connections": []
+}
